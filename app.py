@@ -2,7 +2,7 @@ from logging import debug
 from flask import Flask, render_template, Response
 from camera import Video
 
-app=Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def index():
