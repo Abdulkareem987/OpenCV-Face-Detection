@@ -1,11 +1,10 @@
-import numpy as np
 import cv2
 
 face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_default.xml')
 
 cap = cv2.VideoCapture(0)
 
-while(True):
+while True:
     # Capture frame-by-frame
     ret, frame = cap.read()
     faces = face_cascade.detectMultiScale(frame, scaleFactor=1.3, minNeighbors=5)
