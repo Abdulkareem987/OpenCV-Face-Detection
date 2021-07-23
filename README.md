@@ -22,4 +22,4 @@ camera.py: this is a page for the python code that connect the live detection co
 
 1- To use the web app, run the app.py file, and to run the code locally run the main.py.
 
-2- Make sure the project is on the same disk as python
+2- Make sure the project folder is on the same disk as python
