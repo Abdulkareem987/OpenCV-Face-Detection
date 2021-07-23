@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="UTF-8">
+        <TItle>Webcam Test</TItle>
+        <link rel="stylesheet" href="css/index-style.css">
+        
+    </head>
+
+    <style>
+        body {
+    margin: 0;
+    background-color: lightgray;
+    font-family: 'Poppins';
+    text-align: center;
+
+}
+
+nav {
+    background: -webkit-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: -moz-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: -o-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: linear-gradient(-135deg, #25332e, #0a0f0d);
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    border-bottom: solid 1PX;
+    
+}
+
+footer {
+    background: -webkit-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: -moz-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: -o-linear-gradient(-135deg, #25332e, #0a0f0d);
+    background: linear-gradient(-135deg, #25332e, #0a0f0d);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    border-top: solid 1PX;
+    padding: 8px 0 8px;
+    left: 0;
+    bottom: 0;
+    color: lightgray;
+    
+}
+
+    </style>
+    
+    <body>   
+       <nav>
+           <img src="https://www.s-m.com.sa/images/logo.png" alt="SM logo" style="width: 180px;">
+       </nav>
+       {% block content %}
+       {% endblock %}
+      
+        
+       <footer>
+               Copyright &copy 2021 Smart Methods. All Rights Reserved.
+       </footer>
+       
+
+    </body>
+</html>
